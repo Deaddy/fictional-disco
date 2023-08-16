@@ -1,0 +1,5 @@
+This is just a debug chart.
+This means helm works to some extent.
+Namespace: {{ .Release.Namespace }}
+Name: {{ .Release.Name }}
+debug value set to: {{ .Values.debug }}
